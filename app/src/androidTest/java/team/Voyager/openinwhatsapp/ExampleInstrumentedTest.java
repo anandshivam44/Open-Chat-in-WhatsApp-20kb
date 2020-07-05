@@ -1,4 +1,4 @@
-package target.com.tinyapp;
+package team.Voyager.openinwhatsapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

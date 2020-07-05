@@ -1,4 +1,4 @@
-package target.com.tinyapp;
+package team.Voyager.openinwhatsapp;
 
 import org.junit.Test;
 
