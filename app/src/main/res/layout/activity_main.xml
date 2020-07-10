@@ -4,47 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e9e9e9"
+    android:background="#fafafa"
     android:layout_gravity="center"
     android:gravity="center"
     tools:context="team.Voyager.openinwhatsapp.MainActivity">
 
-    <Button
-        android:id="@+id/minimize"
-        android:layout_width="30dp"
-        android:layout_height="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="10dp"
-        android:layout_toLeftOf="@+id/full_screen"
-        android:gravity="center"
-        android:background="@drawable/rectangle"
-        />
-
-    <Button
-        android:id="@+id/full_screen"
-        android:layout_width="30dp"
-        android:layout_height="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="10dp"
-        android:layout_toLeftOf="@+id/quit_app"
-        android:background="@drawable/square"
-        android:text=" "
-        android:textColor="#000000"
-        android:textSize="40dp" />
-
-    <TextView
-        android:id="@+id/quit_app"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:paddingEnd="13dp"
-        android:text="X"
-        android:textColor="#000000"
-        android:background="#e9e9e9"
-        android:textSize="30dp" />
+        android:background="@drawable/background_with_angle"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Voyager"
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="#2B2B2B"
+            />
+
+        <Button
+            android:id="@+id/minimize"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="10dp"
+            android:layout_toLeftOf="@+id/full_screen"
+            android:gravity="center_vertical"
+            android:background="@drawable/rectangle"
+            />
+
+        <Button
+            android:id="@+id/full_screen"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+
+            android:layout_alignParentTop="true"
+            android:paddingHorizontal="8dp"
+            android:gravity="center"
+            android:paddingVertical="20dp"
+            android:layout_toLeftOf="@+id/quit_app"
+            android:background="@drawable/square"
+            android:text=" "
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/quit_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="13dp"
+            android:text="X"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="13dp" />
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -56,7 +79,8 @@
         android:text="Open WhatsApp Chat\nwithout saving them\nin Contacts"
         android:textAlignment="center"
         android:textColor="#555555"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/country_code"
@@ -65,14 +89,15 @@
         android:layout_above="@+id/editText"
         android:layout_marginStart="24dp"
         android:autofillHints="91"
-        android:background="#979292"
+        android:background="#FBD9D2"
         android:gravity="bottom"
         android:hint="Country Code"
         android:inputType="phone"
         android:paddingHorizontal="15dp"
         android:paddingVertical="10dp"
-        android:textColor="#ffffff"
-        android:textSize="18dp" />
+        android:textColor="#555555"
+        android:textSize="18dp"
+        android:layout_marginLeft="24dp" />
 
     <EditText
         android:id="@+id/editText"
@@ -84,13 +109,14 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
-        android:background="#979292"
+        android:background="#FBD9D2"
         android:gravity="center"
         android:hint="Enter Phone number"
         android:inputType="phone"
         android:paddingVertical="10dp"
-        android:textColor="#ffffff"
-        android:textSize="22dp" />
+        android:textColor="#555555"
+        android:textSize="22dp"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:id="@+id/button"
@@ -101,11 +127,13 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="60dp"
-        android:background="#7A7777"
+        android:background="@drawable/background_with_angle"
         android:elevation="30dp"
         android:text="Open in WhatsApp"
         android:textAllCaps="false"
         android:textColor="#2B2B2B"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp" />
 
 </RelativeLayout>
