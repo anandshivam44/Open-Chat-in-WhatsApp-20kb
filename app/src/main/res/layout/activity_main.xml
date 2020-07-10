@@ -1,139 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/root_layout"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fafafa"
+    android:background="#E2FAFAFA"
     android:layout_gravity="center"
+    android:orientation="vertical"
     android:gravity="center"
     tools:context="team.Voyager.openinwhatsapp.MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_alignParentTop="true"
-        android:background="@drawable/background_with_angle"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:background="#555555"
         >
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_height="match_parent"
             android:text="Team Voyager"
-            android:layout_alignParentLeft="true"
             android:textSize="20dp"
-            android:paddingLeft="10dp"
-            android:textColor="#2B2B2B"
+            android:textColor="#F2ECE4E4"
             />
-
-        <Button
+        <TextView
             android:id="@+id/minimize"
-            android:layout_width="30dp"
-            android:layout_height="20dp"
-            android:layout_alignParentTop="true"
-            android:paddingHorizontal="8dp"
-            android:paddingVertical="10dp"
-            android:layout_toLeftOf="@+id/full_screen"
-            android:gravity="center_vertical"
+            android:text="            "
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_vertical"
             android:background="@drawable/rectangle"
             />
 
-        <Button
+        <TextView
             android:id="@+id/full_screen"
-            android:layout_width="25dp"
-            android:layout_height="15dp"
-
-            android:layout_alignParentTop="true"
-            android:paddingHorizontal="8dp"
-            android:gravity="center"
-            android:paddingVertical="20dp"
-            android:layout_toLeftOf="@+id/quit_app"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="     "
             android:background="@drawable/square"
-            android:text=" "
-            android:paddingLeft="20dp"
+            android:gravity="center"
+            android:padding="0dp"
             android:textColor="#000000"
-            android:textSize="40dp" />
+            android:textSize="12dp" />
 
         <TextView
             android:id="@+id/quit_app"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:paddingEnd="13dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"
             android:text="X"
-            android:textColor="#000000"
-            android:paddingLeft="10dp"
+            android:background="#D63929"
+            android:gravity="center"
+            android:textColor="#D6CDCD"
             android:textSize="20dp"
-            android:layout_alignParentRight="true"
-            android:paddingRight="13dp" />
-    </RelativeLayout>
+            />
+
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="16dp"
+
         android:text="Open WhatsApp Chat\nwithout saving them\nin Contacts"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="30dp"
-        android:gravity="center_horizontal" />
+        android:gravity="center" />
 
     <EditText
-        android:id="@+id/country_code"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
         android:layout_above="@+id/editText"
-        android:layout_marginStart="24dp"
         android:autofillHints="91"
-        android:background="#FBD9D2"
         android:gravity="bottom"
-        android:hint="Country Code"
+        android:layout_gravity="left"
+        android:hint="Country Code (Optional)"
+        android:layout_marginLeft="24dp"
         android:inputType="phone"
-        android:paddingHorizontal="15dp"
-        android:paddingVertical="10dp"
         android:textColor="#555555"
         android:textSize="18dp"
-        android:layout_marginLeft="24dp" />
+        />
+
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="8dp"
-        android:background="#FBD9D2"
-        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.95"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
         android:hint="Enter Phone number"
         android:inputType="phone"
-        android:paddingVertical="10dp"
+        android:gravity="center_vertical"
         android:textColor="#555555"
-        android:textSize="22dp"
-        android:layout_alignParentRight="true" />
+        android:textSize="17dp"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="60dp"
         android:background="@drawable/background_with_angle"
         android:elevation="30dp"
         android:text="Open in WhatsApp"
+        android:gravity="center"
+        android:textColor="#C0C0C0"
         android:textAllCaps="false"
-        android:textColor="#2B2B2B"
         android:textSize="20dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="25dp" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
 
-</RelativeLayout>
+</LinearLayout>
