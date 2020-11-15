@@ -5,6 +5,11 @@ width="200" hspace="10" vspace="10">
 
 Open Chat in WhatsApp is an extremely light weight and robust app for android. It opens WhatsApp chat without saving them in contacts thereby bypassing WhatsApp motive to force you to save contacts,watch status and keep you in the WhatsApp Eco-System. Very useful for management team if you want to send message to someone once or twice
 <br>
+<div class="clearfix"></div>
+<br> 
+<br> 
+<br> 
+<br> 
 Open Chat in WhatsApp is available on the Google Play Store
 
 <p align="left">
