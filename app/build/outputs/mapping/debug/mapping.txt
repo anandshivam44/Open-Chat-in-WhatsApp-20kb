@@ -1,0 +1,39 @@
+# compiler: R8
+# compiler_version: 2.0.74
+# min_api: 14
+# pg_map_id: ffce12b
+# common_typos_disable
+team.Voyager.openinwhatsapp.MainActivity -> team.Voyager.openinwhatsapp.MainActivity:
+    android.content.SharedPreferences$Editor editor -> k
+    android.widget.TextView minimize -> e
+    android.widget.TextView quitApp -> d
+    android.widget.TextView contactus -> g
+    android.widget.TextView fullScreen -> f
+    android.widget.LinearLayout rootLayout -> h
+    android.widget.FrameLayout$LayoutParams params -> i
+    android.widget.EditText et2 -> b
+    android.widget.EditText et1 -> a
+    android.widget.Button bt -> c
+    android.content.SharedPreferences sharedPref -> j
+    23:23:void <init>() -> <init>
+    41:164:void onCreate(android.os.Bundle) -> onCreate
+team.Voyager.openinwhatsapp.MainActivity$1 -> team.Voyager.openinwhatsapp.MainActivity$a:
+    team.Voyager.openinwhatsapp.MainActivity this$0 -> a
+    83:83:void <init>(team.Voyager.openinwhatsapp.MainActivity) -> <init>
+    91:115:void onClick(android.view.View) -> onClick
+team.Voyager.openinwhatsapp.MainActivity$2 -> team.Voyager.openinwhatsapp.MainActivity$b:
+    team.Voyager.openinwhatsapp.MainActivity this$0 -> a
+    117:117:void <init>(team.Voyager.openinwhatsapp.MainActivity) -> <init>
+    120:122:void onClick(android.view.View) -> onClick
+team.Voyager.openinwhatsapp.MainActivity$3 -> team.Voyager.openinwhatsapp.MainActivity$c:
+    team.Voyager.openinwhatsapp.MainActivity this$0 -> a
+    124:124:void <init>(team.Voyager.openinwhatsapp.MainActivity) -> <init>
+    127:128:void onClick(android.view.View) -> onClick
+team.Voyager.openinwhatsapp.MainActivity$4 -> team.Voyager.openinwhatsapp.MainActivity$d:
+    team.Voyager.openinwhatsapp.MainActivity this$0 -> a
+    130:130:void <init>(team.Voyager.openinwhatsapp.MainActivity) -> <init>
+    135:153:void onClick(android.view.View) -> onClick
+team.Voyager.openinwhatsapp.MainActivity$5 -> team.Voyager.openinwhatsapp.MainActivity$e:
+    team.Voyager.openinwhatsapp.MainActivity this$0 -> a
+    155:155:void <init>(team.Voyager.openinwhatsapp.MainActivity) -> <init>
+    158:161:void onClick(android.view.View) -> onClick

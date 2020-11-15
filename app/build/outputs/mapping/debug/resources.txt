@@ -1,0 +1,18 @@
+Resource Reference Graph:
+mipmap:ic_launcher_logo:2131034112 => [color:ic_launcher_text_background:2130771968, drawable:ic_launcher_text_foreground:2130837505]
+layout:activity_main:2130968576 => [drawable:rectangle:2130837506, drawable:square:2130837507, id:editText:2130903043, drawable:background_with_angle:2130837504]
+
+The root reachable resources are:
+string:app_name:2131099648,
+   mipmap:ic_launcher_logo:2131034112,
+   style:Translucent:2131165184,
+   id:button:2130903040,
+   id:code:2130903041,
+   id:contact:2130903042,
+   id:editText:2130903043,
+   id:full_screen:2130903044,
+   id:minimize:2130903045,
+   id:quit_app:2130903046,
+   id:root_layout:2130903047,
+   layout:activity_main:2130968576
+Resource shrinking did not work (grew from 16823 to 16992); using original instead

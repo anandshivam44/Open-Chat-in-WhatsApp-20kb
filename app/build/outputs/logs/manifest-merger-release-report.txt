@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:3:11-48
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:5:5-18:19
+	android:screenOrientation
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:8:9-45
+	android:label
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:7:9-48
+	android:allowBackup
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:10:9-43
+activity#team.Voyager.openinwhatsapp.MainActivity
+ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:11:19-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:13:17-68
+	android:name
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/AndroidManifest.xml

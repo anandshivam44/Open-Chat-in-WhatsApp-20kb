@@ -1,0 +1,9 @@
+team.Voyager.openinwhatsapp.R$style
+team.Voyager.openinwhatsapp.R$mipmap
+team.Voyager.openinwhatsapp.R$string
+team.Voyager.openinwhatsapp.R$drawable
+team.Voyager.openinwhatsapp.R$id
+team.Voyager.openinwhatsapp.R
+team.Voyager.openinwhatsapp.BuildConfig
+team.Voyager.openinwhatsapp.R$layout
+team.Voyager.openinwhatsapp.R$color

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "team.Voyager.openinwhatsapp",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 8,
+        "versionName": "1.4",
+        "outputFile": "app-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "resources-release.ap_",
+      "properties": {
+        "packageId": "team.Voyager.openinwhatsapp",
+        "split": "",
+        "minSdkVersion": "14"
+      }
+    }
+  ]
+}

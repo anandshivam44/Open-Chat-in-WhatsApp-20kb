@@ -1,0 +1,2 @@
+team.Voyager.openinwhatsapp.MainActivity
+team.Voyager.openinwhatsapp.MainActivity: MainActivity()

@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/shivam/AndroidStudioProjects/tiny_apk/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "58",
+                        "endOffsets": "70"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "117",
+                        "endColumns": "58",
+                        "endOffsets": "171"
+                    }
+                },
+                {
+                    "source": "/home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/res/values/ic_launcher_text_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
+                    }
+                },
+                {
+                    "source": "/home/shivam/AndroidStudioProjects/tiny_apk/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "459"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "176",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "617"
+                    }
+                }
+            ]
+        }
+    ]
+}
