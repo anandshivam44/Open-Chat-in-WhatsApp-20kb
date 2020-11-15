@@ -20,8 +20,16 @@ Open Chat in WhatsApp is available on the Google Play Store
 Simple yet very useful. A tiny tool that helps you to open Conversation in WhatsApp without opening it. Most beneficial for management when dealing with a lot of numbers become too hefty or opening a chat for a stranger where you do not want to save the phone number. Just type in the number and Wow it works!
 Battery Management in this app is miscellaneous.
 
-## Features
+## Screenshots
 
+<img src="/Screenshots/ss_1.jpeg" align="left"
+width="200"
+    hspace="10" vspace="1">
+<img src="/Screenshots/ss_2.jpeg" align="center"
+width="200"
+    hspace="10" vspace="1">
+
+## Features
 ### v1
 - Open Chat Conversation
 - Extremely Light Weight Apk
@@ -33,15 +41,6 @@ Battery Management in this app is miscellaneous.
 Now you can,
 - App can remember your Window Screen mode
 - Won't need to type Country code each time
-
-## Screenshots
-
-<img src="/Screenshots/ss_1.jpeg" align="left"
-width="200"
-    hspace="10" vspace="1">
-<img src="/Screenshots/ss_2.jpeg" align="center"
-width="200"
-    hspace="10" vspace="1">
 
 ## Permissions
 This app neend no permission in any of the Android version
