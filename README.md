@@ -22,26 +22,26 @@ Battery Management in this app is miscellaneous.
 
 ## Features
 
-###v1
+### v1
 - Open Chat Conversation
 - Extremely Light Weight Apk
 - Miscellaneous Battery Management
 - Theme inspired by Desktop Environment
 - Transparent Margins
 - No Ads
-###v2
+### v2
 Now you can,
 - App can remember your Window Screen mode
 - Won't need to type Country code each time
 
 ## Screenshots
 
-[<img src="/Screenshots/ss_1.png" align="left"
+<img src="/Screenshots/ss_1.jpeg" align="left"
 width="200"
-    hspace="10" vspace="1">](/readme/Wallabag%20Reading%20List.png)
-[<img src="/Screenshots/ss_2.png" align="center"
+    hspace="10" vspace="1">
+<img src="/Screenshots/ss_2.jpeg" align="center"
 width="200"
-    hspace="10" vspace="1">](/readme/Wallabag%20Article%20View.png)
+    hspace="10" vspace="1">
 
 ## Permissions
 This app neend no permission in any of the Android version
