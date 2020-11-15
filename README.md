@@ -10,6 +10,8 @@ Open Chat in WhatsApp is an extremely light weight and robust app for android. I
 <br> 
 <br> 
 <br> 
+<br> 
+<br> 
 Open Chat in WhatsApp is available on the Google Play Store
 
 <p align="left">
@@ -21,7 +23,7 @@ Open Chat in WhatsApp is available on the Google Play Store
         </p>
 
 ## About
-
+<img src="https://play-lh.googleusercontent.com/CdfJozDtVGNpRfWx9auQyutgjkWwcpYcTznhLusSOU0_Mp33pxU4iPEtU8le9xWnnvo=w720-h310-rw">
 Simple yet very useful. A tiny tool that helps you to open Conversation in WhatsApp without opening it. Most beneficial for management when dealing with a lot of numbers become too hefty or opening a chat for a stranger where you do not want to save the phone number. Just type in the number and Wow it works!
 Battery Management in this app is miscellaneous.
 
@@ -49,4 +51,6 @@ Now you can,
 
 ## Permissions
 This app neend no permission in any of the Android version
+
+
 
